@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
 	<BiduleGroup id="UID_1340304535" displayName="NoiseSynth" zoom="1" type="com.plogue.groups.NoiseSynth" processingMode="process" author="n6" version="1.0">
-		<Geometry x="-451.667" y="300.333" w="0" h="0"/>
-		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
-		<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>
+		<Geometry x="-465.667" y="271.333" w="0" h="0"/>
 		<Channel index="0" name="Mono Output" direction="output" type="samples"/>
 		<Gui state="normal" hidden="true" generic="true">
 			<Geometry x="436" y="165" w="494" h="437"/>
 		</Gui>
-		<Presets uSize="30029" checkSum="-463">eJzt3U9vmzAYBvBd10+BfOkpjl+M+VOFVNqh0qS2m9bLrgi8FC3BEZAl/faj2TQ1VhOGhrJaenKomhb34cXwUy6POrverZbeD103palSRlwwT1e5KcpqkbKPD58mcaySCbHr+cXsQ1lslvpzrRvdNl63sGqudk2Zsse2XV9Np9vtlm8lN/Vi6gtB0693tw/5o15lk7Jq2qzKNfO6468qc5+tdLPOcv3r97cmz9rnE7g8iOC7prj02qe1TlluVny9NIuN5ovabNYNvzdlox+eqvaRzS/ez36t8coiZd0MVReQst8/I+bVOitMtXxKWWWeD++Oz+rumFbX+yWTiHmbRtd3ZbVfv/8+23VXhHlLk3/XxY2pv2RVYVYp+5Ytm26U1abdn/VNlrem7pZxYnOaTf/85ddy/CM5/sAcwcXpJDFSEHEiEQXJ6TQ6z+U7dvWGxvRcO/kiZkKxOIjavx2UNiHBAxGLSJ2ODY5MpwZvWahEIHvS1Ms0LujljEMnVFyoiKKemyQca/e6sw3CpGe+Y0+05BT6fjw8UwRC9tyf8Ug7KLmvRETh6bRkxB30eSCFjHvmo2OqDH7Obb66d3usLcrJotwH5f9CeU8QFD/1hMSCyyQQSp5H8d7bYkzAuy9+pPyzAR4rkcQ9840OOAVR0jPheID3DDem3X+3eaPZ/fruHQHctwCXAByA/6eP4UmkeJjEMur5XAXB36rgMkpCH4KfVXBpCR5AcAgOwSE4BHdE8MASXEFwCA7BITgEd0RwZQkeQnAIDsEhOAR3RPDQEjyC4BAcgkNwCO6I4JEleAzBITgEh+AQ3BHBY0vwBIJDcAgOwSG4I4IndrNHgHAQDsJBOAh3hPDn1EPDUc+E4TAchsNwZwy3a5mEXiYMh+EwHIY7Y7jdzCRUM2E4DIfhMNwZw+1uJqGcCcNhOAyH4c4YbrczCfVMGA7DYTgMd8Zwu59JKGjCcBgOw2G4M4bbDU1CRROGw3AYDsOdMdzuaBJKmjAchsNwGO6M4XZLk1DThOEwHIbDcGcMt3uavoDhMByGw3AY/nYNn00P/v3m/OIdXkNePwHqm9Bd</Presets>
+		<Presets uSize="30029" checkSum="2304">eJzt3U9r2zAYBvBd109hdOkpiv5Yll3iFHYoDNpurJddja2lZokVbGdJv/3cbIxGNPHMTFbBk0NoUquPXyv+kctDZ9e71TL4YeqmtFVKOGUkMFVui7JapOTjw6dJHKtkwsn1/GL2oSw2S/O5No1pm6BbWDVXu6ZMyWPbrq+m0+12S7eS2noxFYzx6de724f80ayySVk1bVblhgTd8VeVvc9Wpllnufn1+1ubZ+3zCVweRNBdU1wG7dPapCS3K7pe2sXG0EVtN+uG3tuyMQ9PVftI5hfvZ7/WBGWRkm6GqgtIye/3OAlqkxW2Wj6lpLLPh3fHZ3V3TGvq/ZKJJsGmMfVdWe3X73/Odt0VIcHS5t9NcWPrL1lV2FVKvmXLphtltWn3Z32T5a2tu2WUkzmfTf/85ddyxJEcMTCHUXY6iY0UxCnnTIfJ6TR+nst37OoNjem5dvJFzITH7CBq/3JQ2oRrKrTkMj4dGx6ZTg3eskixUKrTaeplGmX85YxDJ1SUKc11z4ckGmv3urMNo6RnvmN3tKQ8EiIenslC0TdhPNIOSioU0zw6nZaMuIOChpLJuOf+48dUGXyfu3x1r/ZYO5Rzh3IByv+F8p4gKH7qDokZlUnIlDyP4r0fizEB756EVuJsgMeKJXHPfKMDzkOdnA3wnuHGtPvvNm80u1/fvSOACwdwCcAB+H/6Gp5oRaMklrrnexUEf6uCS51EAoKfVXDpCB5CcAgOwSE4BPdE8NARXEFwCA7BITgE90Rw5QgeQXAIDsEhOAT3RPDIEVxDcAgOwSE4BPdEcO0IHkNwCA7BITgE90Tw2BE8geAQHIJDcAjuieCJ2+xhIByEg3AQDsI9Ifw59dBw1DNhOAyH4TDcG8PdWiZHLxOGw3AYDsO9MdxtZnJUM2E4DIfhMNwbw91uJkc5E4bDcBgOw70x3G1nctQzYTgMh+Ew3BvD3X4mR0EThsNwGA7DvTHcbWhyVDRhOAyH4TDcG8PdjiZHSROGw3AYDsO9MdxtaXLUNGE4DIfhMNwbw92epmAwHIbDcBgOw9+u4bPpwb/fnF+8w2PI4ycqGtBy</Presets>
 		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
@@ -36,7 +34,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="-1800" userMax="1800" lockedForRandom="false" mutationFactor="0.1">-10.408075</Parameter>
+			<Parameter id="0" userMin="-1800" userMax="1800" lockedForRandom="false" mutationFactor="0.1">-17.273138</Parameter>
 		</Bidule>
 		<Bidule id="UID_1340304542" type="com.plogue.Gate" displayName="Gate" processingMode="process">
 			<Geometry x="-13" y="25" w="0" h="0"/>
@@ -140,7 +138,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="-1" userMax="1" lockedForRandom="false" mutationFactor="0.1">-0.005782</Parameter>
+			<Parameter id="0" userMin="-1" userMax="1" lockedForRandom="false" mutationFactor="0.1">-0.009596</Parameter>
 		</Bidule>
 		<Bidule id="UID_1340304559" type="com.plogue.Gain" displayName="Volume" processingMode="process">
 			<Geometry x="-61" y="-186" w="0" h="0"/>
@@ -152,7 +150,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.004031</Parameter>
+			<Parameter id="0" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.004279</Parameter>
 		</Bidule>
 		<BiduleGroup id="UID_1340304562" displayName="LFO_Vol" zoom="1" type="com.plogue.groups.LFO" processingMode="process" author="Plogue Art et Technologie" version="1.0">
 			<Geometry x="80" y="205" w="0" h="0"/>
@@ -219,7 +217,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="-1" userMax="1" lockedForRandom="false" mutationFactor="0.1">-0.783138</Parameter>
+			<Parameter id="0" userMin="-1" userMax="1" lockedForRandom="false" mutationFactor="0.1">-0.778790</Parameter>
 		</Bidule>
 		<Link producerId="UID_1340304540" producerChannel="0" listenerId="UID_1340304538" listenerChannel="0"/>
 		<Link producerId="UID_1340304542" producerChannel="0" listenerId="UID_1340304538" listenerChannel="1"/>
