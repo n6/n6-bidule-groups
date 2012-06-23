@@ -8,10 +8,10 @@ These Bidule groups specifically work with http://www.plogue.com/products/bidule
 
 To use these groups, cd to your Bidule groups directory and run: `git clone git://github.com/n6/n6-bidule-groups.git`
 
-OSX `~/Library/Application Support/Plogue/Bidule/groups`
-Windows `C:\Users\<username>\AppData\Roaming\Plogue\Bidule\groups`
+* OSX `~/Library/Application Support/Plogue/Bidule/groups`
+* Windows `C:\Users\<username>\AppData\Roaming\Plogue\Bidule\groups`
 
-On Bidule startup the new groups will be automagically recognized. 
+On Bidule startup the new groups will be *automagically* recognized. 
 
 NoiseSynth
 ==========
@@ -21,7 +21,7 @@ My attempt at nearly random noise generation. Two LFOs modify the group's parame
 
 ManualNoteSelect
 ================
-Manually output a MIDI note using a drop down menu. Great for drones. 
+Manually output a MIDI note using a drop down menu. Also uses Note_Octave_Select (from Hansje) and ManualNoteValueInput group. Great for drones. 
 
 ManualNoteValueInput
 ====================
