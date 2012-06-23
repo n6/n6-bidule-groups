@@ -17,7 +17,11 @@ NoiseSynth
 ==========
 My attempt at nearly random noise generation. Two LFOs modify the group's parameters.
 
-![NoiseSynth screenshot](https://github.com/n6/bidule-groups/blob/master/NoiseSynth.png "NoiseSynth screenshot")
+NoiseSynth UI screenshot
+![NoiseSynth UI screenshot](https://github.com/n6/n6-bidule-groups/raw/master/NoiseSynth/NoiseSynth.png)
+
+NoiseSynth Group Layout
+![NoiseSynth Group Layout](https://github.com/n6/n6-bidule-groups/raw/master/NoiseSynth/NoiseSynthLayout.png)
 
 ManualNoteSelect
 ================
