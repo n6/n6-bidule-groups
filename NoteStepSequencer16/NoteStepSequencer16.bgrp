@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
 	<BiduleGroup id="UID_1341568369" displayName="NoteStepSequencer16" zoom="0.8" type="com.plogue.groups.NoteStepSequencer16" processingMode="process" author="n6" version="1.0">
-		<Geometry x="-276" y="161" w="0" h="0"/>
+		<Geometry x="-938.18" y="176.2" w="0" h="0"/>
+		<Channel index="0" name="Note Divisor" direction="input" type="samples"/>
+		<Channel index="1" name="Beat Divisor" direction="input" type="samples"/>
 		<Channel index="0" name="MIDI Output Port 1" direction="output" type="midi"/>
 		<Gui state="normal" hidden="true" generic="true">
-			<Geometry x="182" y="116" w="781" h="596"/>
+			<Geometry x="243" y="104" w="904" h="603"/>
 		</Gui>
-		<Presets uSize="119687" checkSum="745">eJztnV9vXreRxve2+RSGbnoVmuQMyWEQp0AvCizQdhebm70VbG1q1Ja8krxJv/0O5cUCfdFXz1H0lIaAcYAiSa3Q5/DPeTi/mWe+/90vHz+8+p+r27v3N9dvLkrKF6+urt/evHt//dObi3/98d++NWvz23Lxux+++f737999/nD177dXd1f3d6/8B6/vvvvl7v2bi7/c33/67vXrn3/+Of0s6eb2p9c15/L6P//0xx/f/uXq4+W376/v7i+v315dvPLf/931zZ8vP17dfbp8e/Xl///jzdvL+/UH+O3fDZF+uXv321f3f/t09ebi7c3H9OnDzU+fr9JPtzefP92lP9/cX/14f/Xpx6v//ux/5Kvb0i9++OY333/54Vfv37258Ie59pHeXPzfvysXr26vLt/dXH/425uL65v12/33X97677m/un34kW/HxavPd1e3f3p//fDzD39/+Yu/motXH27e/vXq3R9ubv/j8vrdzcc3F/91+eHOn+nj5/uHP/4fLt/e39z6j6Vy8UP5/vX//5f/0Tj1zDj1iePklB8fKZ97oKc+ERypnBspP3EkQSOdfXma81MH6y1p7jLb40MKaV3kNGYtbTw+mrImbabarfT6+HBt28x14syVApckazfn1LTlaY+PZqxZa6nXOVt/fLjJmrWSROpo4OnKuZPk18xdLclqHx3sunL2TKEfXufOlCdPniVpbSp6m2cPlCe/Svho506TXzNxraRZJBtYm+XskfLkiZs6c0WPeO5cefLs+bpUkYbGO3uwPPV9Kpy9c6fKrzoyxVJb8zfBoGfPlidPX29mVcH3nCZSmk9f7hV87+pGqcLUKjaS5JE7GpMnVtBIRKGic7QB1mWlKRV4alamVGkNDseTKnkpFTQcTavMNMz/QjucJlbgxAlTp+CJk20SRWgSJSfzW4GBOZN9EkWYEkVqGlnKBHcs4UmULH6nA4pIaBJlJilZBT0eTaLg2WNKlAM7jidOwEhK0yUzlVbzAJcC3adLlKlLDtzElahJDihKpQmTnrKVLmjm9oVQlClMZnXdZT2j18lTJ6XPZuDarzR1oqlKkYrGI6oT7VY7iP42pkTRkmoWVfCMjadTXO+poEekiRX4+Wk0nQIv442pU4r2ZFLFUHSWJ1SstI5CN40mVCz1Ym2Cs6XRhIokF30NxTEbNaCSZQUyy0BzuE2zdJpm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</Presets>
+		<Presets uSize="119932" checkSum="-3981">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</Presets>
 		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
 		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-		<Parameter id="-5" userMin="0" userMax="15" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		<Parameter id="-5" userMin="0" userMax="15" lockedForRandom="false" mutationFactor="0.1">14.0</Parameter>
 		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 		<Bidule id="UID_1027864631" type="com.plogue.LogicGate" displayName="==" processingMode="process">
 			<Geometry x="-242.457" y="310.139" w="61" h="20"/>
@@ -413,7 +415,7 @@
 			<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">16.0</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341568371" type="com.plogue.Counter" displayName="Counter_0" processingMode="process">
-			<Geometry x="-414.611" y="113.468" w="0" h="0"/>
+			<Geometry x="-435.861" y="123.468" w="0" h="0"/>
 			<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
 			<Gui state="normal" hidden="true" generic="true">
 				<Geometry x="0" y="0" w="0" h="0"/>
@@ -429,7 +431,7 @@
 			<Geometry x="-386.92" y="264.556" w="0" h="0"/>
 			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
 			<Gui state="normal" hidden="true" generic="true">
-				<Geometry x="0" y="0" w="0" h="0"/>
+				<Geometry x="474" y="283" w="418" h="201"/>
 			</Gui>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
@@ -439,7 +441,7 @@
 			<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">44100.0</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341568375" type="com.plogue.Variable" displayName="BPM" processingMode="process">
-			<Geometry x="-326.917" y="370.806" w="0" h="0"/>
+			<Geometry x="-318.167" y="365.806" w="0" h="0"/>
 			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
 			<Gui state="normal" hidden="true" generic="true">
 				<Geometry x="474" y="294" w="418" h="179"/>
@@ -450,11 +452,11 @@
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="0" userMin="0" userMax="250" lockedForRandom="false" mutationFactor="0.1">157.843137</Parameter>
 		</Bidule>
-		<Bidule id="UID_1341568377" type="com.plogue.Constant" displayName="16" processingMode="process">
-			<Geometry x="-306.917" y="219.556" w="0" h="0"/>
+		<Bidule id="UID_1341568377" type="com.plogue.Constant" displayName="16.0" processingMode="process">
+			<Geometry x="-309.417" y="225.806" w="0" h="0"/>
 			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
 			<Gui state="normal" hidden="true" generic="true">
-				<Geometry x="0" y="0" w="0" h="0"/>
+				<Geometry x="123" y="217" w="418" h="201"/>
 			</Gui>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
@@ -467,7 +469,7 @@
 			<Geometry x="-340.917" y="314.556" w="0" h="0"/>
 			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
 			<Gui state="normal" hidden="true" generic="true">
-				<Geometry x="0" y="0" w="0" h="0"/>
+				<Geometry x="474" y="283" w="418" h="201"/>
 			</Gui>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
@@ -477,7 +479,7 @@
 			<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341568381" type="com.plogue.Constant" displayName="60" processingMode="process">
-			<Geometry x="-294.417" y="374.056" w="0" h="0"/>
+			<Geometry x="-283.167" y="367.806" w="0" h="0"/>
 			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
 			<Gui state="normal" hidden="true" generic="true">
 				<Geometry x="0" y="0" w="0" h="0"/>
@@ -605,9 +607,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">6.670201</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.046400</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568483" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -618,9 +620,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">6.267634</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">24.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">72.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568485" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -657,7 +659,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">46.249302</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">523.251160</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568481" producerChannel="0" listenerId="UID_1341568485" listenerChannel="0"/>
 			<Link producerId="UID_1341568483" producerChannel="0" listenerId="UID_1341568485" listenerChannel="1"/>
@@ -688,9 +690,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">10.453655</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.949957</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">10.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568496" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -701,9 +703,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">2.524404</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">12.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">36.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568498" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -740,7 +742,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">29.135235</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">110.0</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568494" producerChannel="0" listenerId="UID_1341568498" listenerChannel="0"/>
 			<Link producerId="UID_1341568496" producerChannel="0" listenerId="UID_1341568498" listenerChannel="1"/>
@@ -771,9 +773,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.879847</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">4.981654</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">5.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568509" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -784,9 +786,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">1.452405</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">6.865686</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">12.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">84.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568511" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -823,7 +825,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">25.956543</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">1396.912964</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568507" producerChannel="0" listenerId="UID_1341568511" listenerChannel="0"/>
 			<Link producerId="UID_1341568509" producerChannel="0" listenerId="UID_1341568511" listenerChannel="1"/>
@@ -854,9 +856,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.612052</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">4.440509</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568522" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -867,9 +869,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">5.627446</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">3.260388</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">60.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">36.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568524" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -906,7 +908,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">440.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">82.406891</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568520" producerChannel="0" listenerId="UID_1341568524" listenerChannel="0"/>
 			<Link producerId="UID_1341568522" producerChannel="0" listenerId="UID_1341568524" listenerChannel="1"/>
@@ -937,9 +939,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">6.983343</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.810749</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568535" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -950,9 +952,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">6.300067</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">24.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">72.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568537" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -989,7 +991,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">46.249302</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">622.253967</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568533" producerChannel="0" listenerId="UID_1341568537" listenerChannel="0"/>
 			<Link producerId="UID_1341568535" producerChannel="0" listenerId="UID_1341568537" listenerChannel="1"/>
@@ -1020,9 +1022,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.635353</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.718747</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568548" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1033,9 +1035,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">4.131067</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">12.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">48.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568550" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1072,7 +1074,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">25.956543</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">220.0</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568546" producerChannel="0" listenerId="UID_1341568550" listenerChannel="0"/>
 			<Link producerId="UID_1341568548" producerChannel="0" listenerId="UID_1341568550" listenerChannel="1"/>
@@ -1103,9 +1105,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.852418</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">5.195436</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">5.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568561" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1116,9 +1118,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">7.709549</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">12.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">96.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568563" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1155,7 +1157,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">25.956543</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">2793.825928</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568559" producerChannel="0" listenerId="UID_1341568563" listenerChannel="0"/>
 			<Link producerId="UID_1341568561" producerChannel="0" listenerId="UID_1341568563" listenerChannel="1"/>
@@ -1186,9 +1188,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.484199</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">10.174455</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">10.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568574" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1199,9 +1201,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">1.530687</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">7.210842</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">12.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">84.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568576" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1238,7 +1240,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">25.956543</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">1864.655029</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568572" producerChannel="0" listenerId="UID_1341568576" listenerChannel="0"/>
 			<Link producerId="UID_1341568574" producerChannel="0" listenerId="UID_1341568576" listenerChannel="1"/>
@@ -1269,9 +1271,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.029946</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">4.189591</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568587" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1282,9 +1284,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">0.555197</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">6.484739</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">72.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568589" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1321,7 +1323,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">8.175799</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">659.255127</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568585" producerChannel="0" listenerId="UID_1341568589" listenerChannel="0"/>
 			<Link producerId="UID_1341568587" producerChannel="0" listenerId="UID_1341568589" listenerChannel="1"/>
@@ -1352,9 +1354,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.390073</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.816628</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">10.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568600" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1365,9 +1367,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">0.101638</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">48.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568602" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1404,7 +1406,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">130.812790</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">14.567617</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568598" producerChannel="0" listenerId="UID_1341568602" listenerChannel="0"/>
 			<Link producerId="UID_1341568600" producerChannel="0" listenerId="UID_1341568602" listenerChannel="1"/>
@@ -1435,9 +1437,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.911803</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.821525</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568613" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1448,9 +1450,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">4.440209</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">2.891026</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">48.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">36.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568615" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1487,7 +1489,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">207.652344</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">77.781746</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568611" producerChannel="0" listenerId="UID_1341568615" listenerChannel="0"/>
 			<Link producerId="UID_1341568613" producerChannel="0" listenerId="UID_1341568615" listenerChannel="1"/>
@@ -1518,9 +1520,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.562467</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">3.557848</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568626" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1531,9 +1533,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">4.844803</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">2.052371</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">48.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">24.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568628" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1570,7 +1572,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">130.812790</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">41.203445</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568624" producerChannel="0" listenerId="UID_1341568628" listenerChannel="0"/>
 			<Link producerId="UID_1341568626" producerChannel="0" listenerId="UID_1341568628" listenerChannel="1"/>
@@ -1601,9 +1603,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.883734</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">7.778625</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568639" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1614,9 +1616,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">0.090465</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">7.577953</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">96.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568641" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1653,7 +1655,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">9.177024</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">3322.437500</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568637" producerChannel="0" listenerId="UID_1341568641" listenerChannel="0"/>
 			<Link producerId="UID_1341568639" producerChannel="0" listenerId="UID_1341568641" listenerChannel="1"/>
@@ -1684,9 +1686,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.004835</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.972465</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">8.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">10.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568652" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1697,9 +1699,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">4.770587</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">5.307046</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">48.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">60.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568654" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1736,7 +1738,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">207.652344</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">466.163757</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568650" producerChannel="0" listenerId="UID_1341568654" listenerChannel="0"/>
 			<Link producerId="UID_1341568652" producerChannel="0" listenerId="UID_1341568654" listenerChannel="1"/>
@@ -1767,9 +1769,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.521788</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">6.917853</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">7.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568665" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1780,9 +1782,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">4.513573</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">48.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">60.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568667" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1819,7 +1821,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">220.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">391.995422</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568663" producerChannel="0" listenerId="UID_1341568667" listenerChannel="0"/>
 			<Link producerId="UID_1341568665" producerChannel="0" listenerId="UID_1341568667" listenerChannel="1"/>
@@ -1850,9 +1852,9 @@
 				<Presets uSize="4699" checkSum="185">eJzt2E9rwjAUAPBd56cI6WEnm7bOWaWt6Jwy0G1MGLtmbebK2kSSOPXbL1Za2F8iuaanlLzkvfwIhddouCsL8EG4yBmNoe96EBCasiynqxjeLu/bYdjtt304TFrROM82BXngRBApgFpIxWAn8hi+SbkeILTdbt1tx2V8hQLP89HzYr5M30iJ2zkVEtOUQKDiB5Td4ZKINU7JcX7OUiwPBVx8SeHuRHYB5H5NYpiy0l0XbLUh7hPmOX4pCExa59ExFORZDFXpVO0bw2sIOMEZo8U+hpQd4lQg5mpSEl7FtnsQbAThi5xWC6sx3ikBCAqWvpNsyvgjphkrY/iKC6FKLzeyqnKKU8m4Wub6MPEj1Oz8W57gjzzBiXk81/s/k/fXgU490Y9M6q1C/sbtN9wOmrxYcgNyX5M8qMknltuAO9Dk7jTcDrqxN9yEvKNJflmT31huA+5LTe5uzT213AbcXU3uq4bbQTP7QTEhv9Ik79XkM8ttwN3T5A4bbgeN7A03IQ81yfs1+chyG3D3ddueps0cOWhsr7hR36PdazbN5tiCm4D/02lG6MvPl6R1ZvZ8AsC4xSg=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.631006</Parameter>
+				<Parameter id="-5" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.566001</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568678" type="com.plogue.Variable" displayName="Octave" processingMode="process">
 				<Geometry x="-148.889" y="125.555" w="0" h="0"/>
@@ -1863,9 +1865,9 @@
 				<Presets uSize="4328" checkSum="1681">eJzt2E9vgjAUAPBd56cgvXjiT0EBDWiyg8kS3ZaZLLt20CkZtKYtQ7/9OkxNXKbp1ms5lfS17/V3eZRsvm9q5xMzXlGSA+gFwMGkoGVFNjm4Xz+6aTqeuBDMZ4PsrirbGj8xzLHgjlxI+HTPqxxshdhNfb/rOq+LPMo2fhgE0H9dLdfFFjfIrQgXiBQYODJ+SugDajDfoQIf55e0QOK7gOFZCm/Py6EjDjucg4I23q6mmxZ7L4hV6K3GYDa4zY6hTlXmQJZO5L79gGFUUlIfckDod5wMRExOCsz6WDcBTssxW1Wkj+/HaC8FgFPT4gOXC8qeESlpk4N3VHNZetOKvsoFKgRlcpkHwQxm/mnn3/KEF/KEf8wTeMH1TMGlA4WJaSr51iv/8IbKG1pvE28YaoKHCjy04Cbg4UgTPFLgkQU3AY9iTfCRAh9ZcBPwUaoJPlbgYwtuAh7rNs1YgccW3AQ80W2aiQJPLLgJeKrbNFMFnlpwE/CJbtOcKPCJBTf6Dg90uyY8XTWhvWsa3n2uNM7MP/sdMBvc/Pv5AlUVT2s=</Presets>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
-				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="10" lockedForRandom="false" mutationFactor="0.1">7.119284</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">36.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">84.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1341568680" type="com.plogue.BinaryOperator" displayName="+" processingMode="process">
 				<Geometry x="-177.778" y="67.7778" w="0" h="0"/>
@@ -1902,7 +1904,7 @@
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">73.416191</Parameter>
+				<Parameter id="0" userMin="0" userMax="24000" lockedForRandom="false" mutationFactor="0.1">1244.507935</Parameter>
 			</Bidule>
 			<Link producerId="UID_1341568676" producerChannel="0" listenerId="UID_1341568680" listenerChannel="0"/>
 			<Link producerId="UID_1341568678" producerChannel="0" listenerId="UID_1341568680" listenerChannel="1"/>
@@ -1915,7 +1917,7 @@
 		</BiduleGroup>
 		<Bidule id="UID_1341568711" type="com.plogue.SyncExtractor" displayName="Sync Extractor_0" processingMode="process">
 			<Geometry x="-500.357" y="364.946" w="0" h="0"/>
-			<ChannelConfig numSampleIn="0" numSampleOut="11" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="12" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
@@ -1954,7 +1956,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.248083</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341569413" type="com.plogue.MIDINoteCreator" displayName="MIDI Note Creator 4" processingMode="process">
 			<Geometry x="165.75" y="156.927" w="146" h="20"/>
@@ -2134,7 +2136,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.349020</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.545460</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604033" type="com.plogue.Variable" displayName="Amp 3" processingMode="process">
 			<Geometry x="81.806" y="310.139" w="46" h="20"/>
@@ -2146,7 +2148,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.105882</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.476012</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604035" type="com.plogue.Variable" displayName="Amp 4" processingMode="process">
 			<Geometry x="244.306" y="310.139" w="46" h="20"/>
@@ -2158,7 +2160,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.986620</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604037" type="com.plogue.Variable" displayName="Amp 5" processingMode="process">
 			<Geometry x="410.556" y="310.139" w="46" h="20"/>
@@ -2170,7 +2172,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.654902</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.076622</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604039" type="com.plogue.Variable" displayName="Amp 6" processingMode="process">
 			<Geometry x="550.556" y="310.139" w="46" h="20"/>
@@ -2182,7 +2184,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.952941</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.061089</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604041" type="com.plogue.Variable" displayName="Amp 7" processingMode="process">
 			<Geometry x="671.806" y="310.139" w="46" h="20"/>
@@ -2194,7 +2196,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.431157</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604043" type="com.plogue.Variable" displayName="Amp 8" processingMode="process">
 			<Geometry x="800.556" y="310.139" w="46" h="20"/>
@@ -2206,7 +2208,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.322494</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604467" type="com.plogue.Variable" displayName="Amp 9" processingMode="process">
 			<Geometry x="-314.444" y="-67.5" w="46" h="20"/>
@@ -2218,7 +2220,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.832992</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604469" type="com.plogue.Variable" displayName="Amp 10" processingMode="process">
 			<Geometry x="-189.444" y="-73.75" w="53" h="20"/>
@@ -2230,7 +2232,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.188193</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604471" type="com.plogue.Variable" displayName="Amp 11" processingMode="process">
 			<Geometry x="-75.694" y="-73.75" w="53" h="20"/>
@@ -2242,7 +2244,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.542979</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604473" type="com.plogue.Variable" displayName="Amp 12" processingMode="process">
 			<Geometry x="25.556" y="-73.75" w="53" h="20"/>
@@ -2254,7 +2256,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.937921</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604475" type="com.plogue.Variable" displayName="Amp 13" processingMode="process">
 			<Geometry x="173.056" y="-73.75" w="53" h="20"/>
@@ -2266,7 +2268,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.229168</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604477" type="com.plogue.Variable" displayName="Amp 14" processingMode="process">
 			<Geometry x="309.306" y="-73.75" w="53" h="20"/>
@@ -2278,7 +2280,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.645713</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604479" type="com.plogue.Variable" displayName="Amp 15" processingMode="process">
 			<Geometry x="433.056" y="-73.75" w="53" h="20"/>
@@ -2290,7 +2292,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.515680</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604481" type="com.plogue.Variable" displayName="Amp 16" processingMode="process">
 			<Geometry x="599.306" y="-73.75" w="53" h="20"/>
@@ -2302,7 +2304,7 @@
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.510927</Parameter>
 		</Bidule>
 		<Bidule id="UID_1341604625" type="com.plogue.MIDINoteCreator2" displayName="Note Creator 2_0" processingMode="process">
 			<Geometry x="-556.25" y="-125" w="0" h="0"/>
@@ -2467,70 +2469,72 @@
 		<Link producerId="UID_1341569416" producerChannel="0" listenerId="UID_1341568369" listenerChannel="0"/>
 		<Link producerId="UID_1341569415" producerChannel="0" listenerId="UID_1341568369" listenerChannel="0"/>
 		<Link producerId="UID_1341569417" producerChannel="0" listenerId="UID_1341568369" listenerChannel="0"/>
+		<Link producerId="UID_1341568369" producerChannel="0" listenerId="UID_1341568389" listenerChannel="1"/>
+		<Link producerId="UID_1341568369" producerChannel="1" listenerId="UID_1341568385" listenerChannel="0"/>
 		<VirtualParameter id="0" source="UID_1341568479" param="0" displayName="Note: "/>
 		<VirtualParameter id="1" source="UID_1341568479" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="2" source="UID_1341568479" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="3" source="UID_1341569412" param="0" displayName="Value"/>
+		<VirtualParameter id="2" source="UID_1341568479" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="3" source="UID_1341569412" param="0" displayName="Amp"/>
 		<VirtualParameter id="4" source="UID_1341568492" param="0" displayName="Note: "/>
 		<VirtualParameter id="5" source="UID_1341568492" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="6" source="UID_1341568492" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="7" source="UID_1341604031" param="0" displayName="Value"/>
+		<VirtualParameter id="6" source="UID_1341568492" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="7" source="UID_1341604031" param="0" displayName="Amp"/>
 		<VirtualParameter id="8" source="UID_1341568505" param="0" displayName="Note: "/>
 		<VirtualParameter id="9" source="UID_1341568505" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="10" source="UID_1341568505" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="11" source="UID_1341604033" param="0" displayName="Value"/>
+		<VirtualParameter id="10" source="UID_1341568505" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="11" source="UID_1341604033" param="0" displayName="Amp"/>
 		<VirtualParameter id="12" source="UID_1341568531" param="0" displayName="Note: "/>
 		<VirtualParameter id="13" source="UID_1341568531" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="14" source="UID_1341568531" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="15" source="UID_1341604035" param="0" displayName="Value"/>
+		<VirtualParameter id="14" source="UID_1341568531" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="15" source="UID_1341604035" param="0" displayName="Amp"/>
 		<VirtualParameter id="16" source="UID_1341568518" param="0" displayName="Note: "/>
 		<VirtualParameter id="17" source="UID_1341568518" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="18" source="UID_1341568518" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="19" source="UID_1341604037" param="0" displayName="Value"/>
+		<VirtualParameter id="18" source="UID_1341568518" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="19" source="UID_1341604037" param="0" displayName="Amp"/>
 		<VirtualParameter id="20" source="UID_1341568544" param="0" displayName="Note: "/>
 		<VirtualParameter id="21" source="UID_1341568544" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="22" source="UID_1341568544" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="23" source="UID_1341604039" param="0" displayName="Value"/>
+		<VirtualParameter id="22" source="UID_1341568544" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="23" source="UID_1341604039" param="0" displayName="Amp"/>
 		<VirtualParameter id="24" source="UID_1341568557" param="0" displayName="Note: "/>
 		<VirtualParameter id="25" source="UID_1341568557" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="26" source="UID_1341568557" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="27" source="UID_1341604041" param="0" displayName="Value"/>
+		<VirtualParameter id="26" source="UID_1341568557" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="27" source="UID_1341604041" param="0" displayName="Amp"/>
 		<VirtualParameter id="28" source="UID_1341568570" param="0" displayName="Note: "/>
 		<VirtualParameter id="29" source="UID_1341568570" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="30" source="UID_1341568570" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="31" source="UID_1341604043" param="0" displayName="Value"/>
+		<VirtualParameter id="30" source="UID_1341568570" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="31" source="UID_1341604043" param="0" displayName="Amp"/>
 		<VirtualParameter id="32" source="UID_1341568583" param="0" displayName="Note: "/>
 		<VirtualParameter id="33" source="UID_1341568583" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="34" source="UID_1341568583" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="35" source="UID_1341604467" param="0" displayName="Value"/>
+		<VirtualParameter id="34" source="UID_1341568583" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="35" source="UID_1341604467" param="0" displayName="Amp"/>
 		<VirtualParameter id="36" source="UID_1341568596" param="0" displayName="Note: "/>
 		<VirtualParameter id="37" source="UID_1341568596" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="38" source="UID_1341568596" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="39" source="UID_1341604469" param="0" displayName="Value"/>
+		<VirtualParameter id="38" source="UID_1341568596" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="39" source="UID_1341604469" param="0" displayName="Amp"/>
 		<VirtualParameter id="40" source="UID_1341568609" param="0" displayName="Note: "/>
 		<VirtualParameter id="41" source="UID_1341568609" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="42" source="UID_1341568609" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="43" source="UID_1341604471" param="0" displayName="Value"/>
+		<VirtualParameter id="42" source="UID_1341568609" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="43" source="UID_1341604471" param="0" displayName="Amp"/>
 		<VirtualParameter id="44" source="UID_1341568622" param="0" displayName="Note: "/>
 		<VirtualParameter id="45" source="UID_1341568622" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="46" source="UID_1341568622" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="47" source="UID_1341604473" param="0" displayName="Value"/>
+		<VirtualParameter id="46" source="UID_1341568622" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="47" source="UID_1341604473" param="0" displayName="Amp"/>
 		<VirtualParameter id="48" source="UID_1341568635" param="0" displayName="Note: "/>
 		<VirtualParameter id="49" source="UID_1341568635" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="50" source="UID_1341568635" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="51" source="UID_1341604475" param="0" displayName="Value"/>
+		<VirtualParameter id="50" source="UID_1341568635" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="51" source="UID_1341604475" param="0" displayName="Amp"/>
 		<VirtualParameter id="52" source="UID_1341568648" param="0" displayName="Note: "/>
 		<VirtualParameter id="53" source="UID_1341568648" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="54" source="UID_1341568648" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="55" source="UID_1341604477" param="0" displayName="Value"/>
+		<VirtualParameter id="54" source="UID_1341568648" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="55" source="UID_1341604477" param="0" displayName="Amp"/>
 		<VirtualParameter id="56" source="UID_1341568661" param="0" displayName="Note: "/>
 		<VirtualParameter id="57" source="UID_1341568661" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="58" source="UID_1341568661" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="59" source="UID_1341604479" param="0" displayName="Value"/>
+		<VirtualParameter id="58" source="UID_1341568661" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="59" source="UID_1341604479" param="0" displayName="Amp"/>
 		<VirtualParameter id="60" source="UID_1341568674" param="0" displayName="Note: "/>
 		<VirtualParameter id="61" source="UID_1341568674" param="1" displayName="Octave #: "/>
-		<VirtualParameter id="62" source="UID_1341568674" param="2" displayName="Frequency (Hz) : "/>
-		<VirtualParameter id="63" source="UID_1341604481" param="0" displayName="Value"/>
+		<VirtualParameter id="62" source="UID_1341568674" param="2" displayName="Freq (Hz) : "/>
+		<VirtualParameter id="63" source="UID_1341604481" param="0" displayName="Amp"/>
 	</BiduleGroup>
 	<Automation id="Automation"/>
 </BoardLayout>
