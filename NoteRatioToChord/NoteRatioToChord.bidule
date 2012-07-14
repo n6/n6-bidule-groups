@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
+	<BiduleGroup id="UID_1026570522" displayName="" zoom="1" processingMode="process" version="0.0">
+		<Geometry x="251" y="0" w="600" h="500"/>
+		<Gui state="normal" hidden="true" generic="true">
+			<Geometry x="0" y="0" w="0" h="0"/>
+		</Gui>
+		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1026570523" type="AudioOutput_0" displayName="Microsoft Sound Mapper - Output(out)" processingMode="process">
+			<Geometry x="-686" y="-100.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="0" y="0" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<CustomData name="DeviceName">Microsoft Sound Mapper - Output(out)</CustomData>
+		</Bidule>
+		<Bidule id="UID_1026758624" type="com.plogue.Comment" displayName="README" processingMode="process">
+			<Geometry x="-584" y="146.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="490" y="202" w="413" h="309"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">JUST START PLAYING THE STEP SEQUENCER.
+
+n6
+</Parameter>
+		</Bidule>
+		<BiduleGroup id="UID_1038666748" displayName="PWMPolySynth_0" zoom="1" type="com.plogue.groups.PWMPolySynth" processingMode="process" author="davidv@main" displayPath="Instruments\tPWMPolySynth" version="1.0">
+			<Geometry x="-619.017" y="71.3269" w="0" h="0"/>
+			<Channel index="0" name="MIDI Input Port 1" direction="input" type="midi"/>
+			<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="474" y="295" w="418" h="178"/>
+			</Gui>
+			<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<BiduleGroup id="UID_1023624154" displayName="LFO" zoom="1" type="com.plogue.groups.LFO" processingMode="process" author="Plogue Art et Technologie" version="1.0">
+				<Geometry x="-210.5" y="124" w="0" h="0"/>
+				<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Bidule id="UID_1023624156" type="com.plogue.Oscillator" displayName="Tone Generator" processingMode="process">
+					<Geometry x="1" y="-115" w="0" h="0"/>
+					<ChannelConfig numSampleIn="4" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+					<Gui state="normal" hidden="true" generic="true">
+						<Geometry x="0" y="0" w="0" h="0"/>
+					</Gui>
+					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+					<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+					<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Parameter id="0" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">5.0</Parameter>
+					<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				</Bidule>
+				<Bidule id="UID_1023624157" type="com.plogue.Variable" displayName="Freq" processingMode="process">
+					<Geometry x="-32" y="-24" w="0" h="0"/>
+					<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+					<Gui state="normal" hidden="true" generic="true">
+						<Geometry x="0" y="0" w="0" h="0"/>
+					</Gui>
+					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+					<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+					<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Parameter id="0" userMin="0.01" userMax="10" lockedForRandom="false" mutationFactor="0.1">0.715180</Parameter>
+				</Bidule>
+				<Bidule id="UID_1023624158" type="com.plogue.Variable" displayName="Amp" processingMode="process">
+					<Geometry x="50" y="-22" w="0" h="0"/>
+					<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+					<Gui state="normal" hidden="true" generic="true">
+						<Geometry x="0" y="0" w="0" h="0"/>
+					</Gui>
+					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+					<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+					<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				</Bidule>
+				<Link producerId="UID_1023624158" producerChannel="0" listenerId="UID_1023624156" listenerChannel="1"/>
+				<Link producerId="UID_1023624157" producerChannel="0" listenerId="UID_1023624156" listenerChannel="0"/>
+				<Link producerId="UID_1023624156" producerChannel="0" listenerId="UID_1023624154" listenerChannel="0"/>
+				<VirtualParameter id="0" source="UID_1023624156" param="0" displayName="Wave Type"/>
+				<VirtualParameter id="1" source="UID_1023624157" param="0" displayName="Freq"/>
+				<VirtualParameter id="2" source="UID_1023624158" param="0" displayName="Amplitude"/>
+			</BiduleGroup>
+			<Bidule id="UID_1038666759" type="com.plogue.UnaryOperator" displayName="Abs" processingMode="process">
+				<Geometry x="-210.5" y="59" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="21" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			</Bidule>
+			<PolyphonyAdapter id="UID_1038666768" displayName="PWMVoice" processingMode="process" retrigger="false" noteProtection="none" stealingPriority="arbitrary" polyphony="6">
+				<BiduleGroup id="UID_1038666751" displayName="PWMVoice" zoom="1" processingMode="process" author="davidv@main" version="1.0">
+					<Geometry x="-56.5" y="-60" w="0" h="0"/>
+					<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
+					<Channel index="1" name="Midi Input Channel 1" direction="input" type="midi"/>
+					<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+					<Channel index="1" name="Sample Output Channel 2" direction="output" type="samples"/>
+					<Gui state="normal" hidden="true" generic="true">
+						<Geometry x="0" y="0" w="0" h="0"/>
+					</Gui>
+					<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+					<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+					<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+					<Bidule id="UID_1028829397" type="com.plogue.Oscillator" displayName="Saw" processingMode="process">
+						<Geometry x="-182.03" y="-88.4789" w="0" h="0"/>
+						<ChannelConfig numSampleIn="4" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+						<Gui state="normal" hidden="true" generic="true">
+							<Geometry x="0" y="0" w="0" h="0"/>
+						</Gui>
+						<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+						<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+						<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="0" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+						<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+					</Bidule>
+					<Bidule id="UID_1028829403" type="com.plogue.Oscillator" displayName="Saw" processingMode="process">
+						<Geometry x="-79" y="-86.4958" w="0" h="0"/>
+						<ChannelConfig numSampleIn="4" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+						<Gui state="normal" hidden="true" generic="true">
+							<Geometry x="0" y="0" w="0" h="0"/>
+						</Gui>
+						<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+						<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+						<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="0" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+						<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+					</Bidule>
+					<Bidule id="UID_1028834264" type="com.plogue.UnaryOperator" displayName="Inv" processingMode="process">
+						<Geometry x="-79" y="-133.5" w="0" h="0"/>
+						<ChannelConfig numSampleIn="1" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+						<Gui state="normal" hidden="true" generic="true">
+							<Geometry x="0" y="0" w="0" h="0"/>
+						</Gui>
+						<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+						<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+						<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="0" userMin="0" userMax="20" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					</Bidule>
+					<Bidule id="UID_1033496870" type="com.plogue.MIDINoteExtractor" displayName="MIDI Note Extractor" processingMode="process">
+						<Geometry x="-215.5" y="210.5" w="0" h="0"/>
+						<ChannelConfig numSampleIn="0" numSampleOut="4" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+						<Gui state="normal" hidden="true" generic="true">
+							<Geometry x="0" y="0" w="0" h="0"/>
+						</Gui>
+						<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+						<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+						<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="1" userMin="1" userMax="1000" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+						<Parameter id="2" userMin="0" userMax="14400" lockedForRandom="false" mutationFactor="0.1">1200.0</Parameter>
+						<Parameter id="3" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+						<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+					</Bidule>
+					<Bidule id="UID_1033496871" type="com.plogue.ADSREnvelope" displayName="ADSR Envelope" processingMode="process">
+						<Geometry x="8.5" y="119.5" w="0" h="0"/>
+						<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+						<Gui state="normal" hidden="true" generic="true">
+							<Geometry x="0" y="0" w="0" h="0"/>
+						</Gui>
+						<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+						<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+						<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="0" userMin="0.2" userMax="1000" lockedForRandom="false" mutationFactor="0.1">0.100000</Parameter>
+						<Parameter id="1" userMin="1" userMax="1000" lockedForRandom="false" mutationFactor="0.1">0.100000</Parameter>
+						<Parameter id="2" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">75.0</Parameter>
+						<Parameter id="3" userMin="10" userMax="1000" lockedForRandom="false" mutationFactor="0.1">0.100000</Parameter>
+						<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+						<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					</Bidule>
+					<Bidule id="UID_1033496872" type="com.plogue.BinaryOperator" displayName="*" processingMode="process">
+						<Geometry x="-65.5" y="53.5" w="0" h="0"/>
+						<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+						<Gui state="normal" hidden="true" generic="true">
+							<Geometry x="0" y="0" w="0" h="0"/>
+						</Gui>
+						<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+						<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+						<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+						<Parameter id="0" userMin="0" userMax="9" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+						<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					</Bidule>
+					<Link producerId="UID_1028829403" producerChannel="0" listenerId="UID_1028834264" listenerChannel="0"/>
+					<Link producerId="UID_1033496871" producerChannel="0" listenerId="UID_1033496872" listenerChannel="1"/>
+					<Link producerId="UID_1038666751" producerChannel="1" listenerId="UID_1033496870" listenerChannel="0"/>
+					<Link producerId="UID_1028829397" producerChannel="0" listenerId="UID_1038666751" listenerChannel="0"/>
+					<Link producerId="UID_1028834264" producerChannel="0" listenerId="UID_1038666751" listenerChannel="0"/>
+					<Link producerId="UID_1033496870" producerChannel="0" listenerId="UID_1028829397" listenerChannel="0"/>
+					<Link producerId="UID_1033496870" producerChannel="0" listenerId="UID_1028829403" listenerChannel="0"/>
+					<Link producerId="UID_1038666751" producerChannel="0" listenerId="UID_1028829403" listenerChannel="3"/>
+					<Link producerId="UID_1033496872" producerChannel="0" listenerId="UID_1028829403" listenerChannel="1"/>
+					<Link producerId="UID_1033496872" producerChannel="0" listenerId="UID_1028829397" listenerChannel="1"/>
+					<Link producerId="UID_1033496870" producerChannel="1" listenerId="UID_1033496872" listenerChannel="0"/>
+					<Link producerId="UID_1033496870" producerChannel="2" listenerId="UID_1033496871" listenerChannel="0"/>
+					<Link producerId="UID_1033496870" producerChannel="3" listenerId="UID_1033496871" listenerChannel="1"/>
+					<Link producerId="UID_1033496870" producerChannel="3" listenerId="UID_1028829403" listenerChannel="2"/>
+					<Link producerId="UID_1033496870" producerChannel="3" listenerId="UID_1028829397" listenerChannel="2"/>
+					<Link producerId="UID_1033496871" producerChannel="1" listenerId="UID_1038666751" listenerChannel="1"/>
+				</BiduleGroup>
+			</PolyphonyAdapter>
+			<Bidule id="UID_1038666872" type="com.plogue.Gain" displayName="Gain" processingMode="process">
+				<Geometry x="-59.5" y="-150" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.419000</Parameter>
+			</Bidule>
+			<Link producerId="UID_1023624154" producerChannel="0" listenerId="UID_1038666759" listenerChannel="0"/>
+			<Link producerId="UID_1038666748" producerChannel="0" listenerId="UID_1038666768" listenerChannel="1"/>
+			<Link producerId="UID_1038666759" producerChannel="0" listenerId="UID_1038666768" listenerChannel="0"/>
+			<Link producerId="UID_1038666768" producerChannel="0" listenerId="UID_1038666872" listenerChannel="0"/>
+			<Link producerId="UID_1038666872" producerChannel="0" listenerId="UID_1038666748" listenerChannel="0"/>
+			<VirtualParameter id="0" source="UID_1023624154" param="1" displayName="Freq"/>
+		</BiduleGroup>
+		<Bidule id="UID_1044475375" type="com.plogue.MonoMixer8" displayName="Mixer" processingMode="process">
+			<Geometry x="-641" y="-42" w="0" h="0"/>
+			<ChannelConfig numSampleIn="8" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="673" y="171" w="566" h="416"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="3" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="4" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">1.570796</Parameter>
+			<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="6" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="7" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="8" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.785000</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="10" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="11" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="12" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.785000</Parameter>
+			<Parameter id="13" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="14" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="15" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="16" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.785000</Parameter>
+			<Parameter id="17" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="18" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="19" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="20" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.785000</Parameter>
+			<Parameter id="21" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="22" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="23" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="24" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.785000</Parameter>
+			<Parameter id="25" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="26" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="27" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="28" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.785000</Parameter>
+			<Parameter id="29" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="30" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="31" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+			<Parameter id="32" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.681000</Parameter>
+		</Bidule>
+		<BiduleGroup id="UID_1342039465" displayName="NoteRatioToChord" zoom="1" type="com.plogue.groups.NoteRatioToChord" processingMode="process" author="n6" version="1.0">
+			<Geometry x="-763.367" y="117.471" w="0" h="0"/>
+			<Channel index="0" name="MIDI Input Port 1" direction="input" type="midi"/>
+			<Channel index="0" name="MIDI Output Port 1" direction="output" type="midi"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="620" y="164" w="434" h="219"/>
+			</Gui>
+			<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Bidule id="UID_1342039468" type="com.plogue.MIDINoteExtractor" displayName="MIDI Note Extractor_0" processingMode="process">
+				<Geometry x="-279" y="174.5" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="4" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="1" userMax="1000" lockedForRandom="false" mutationFactor="0.1">1.099900</Parameter>
+				<Parameter id="2" userMin="0" userMax="14400" lockedForRandom="false" mutationFactor="0.1">1200.0</Parameter>
+				<Parameter id="3" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+				<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039470" type="com.plogue.Constant" displayName="1.250000" processingMode="process">
+				<Geometry x="199" y="121.5" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="474" y="283" w="418" h="201"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">1.250000</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039476" type="com.plogue.BinaryOperator" displayName="*" processingMode="process">
+				<Geometry x="112" y="-95.5" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="9" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039478" type="com.plogue.BinaryOperator" displayName="*" processingMode="process">
+				<Geometry x="-119" y="-70.5" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="9" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039480" type="com.plogue.Constant" displayName="1.200000" processingMode="process">
+				<Geometry x="-43" y="135.5" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="474" y="283" w="418" h="201"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">1.200000</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039482" type="com.plogue.MIDINoteCreator" displayName="MIDI Note Creator_0" processingMode="process">
+				<Geometry x="-218" y="-184" w="0" h="0"/>
+				<ChannelConfig numSampleIn="4" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039484" type="com.plogue.MIDINoteCreator" displayName="MIDI Note Creator_0 (1)" processingMode="process">
+				<Geometry x="45" y="-164" w="0" h="0"/>
+				<ChannelConfig numSampleIn="4" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039486" type="com.plogue.BinaryOperator" displayName="*" processingMode="process">
+				<Geometry x="302" y="-93.5" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="9" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039490" type="com.plogue.Constant" displayName="1.200000" processingMode="process">
+				<Geometry x="322" y="118.5" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="474" y="283" w="418" h="201"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">1.200000</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039492" type="com.plogue.MIDINoteCreator" displayName="MIDI Note Creator_0 (1)" processingMode="process">
+				<Geometry x="252" y="-159" w="0" h="0"/>
+				<ChannelConfig numSampleIn="4" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039494" type="com.plogue.Comment" displayName="README" processingMode="process">
+				<Geometry x="195.154" y="-296.89" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="476" y="229" w="476" h="423"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">The interval between adjacent notes on the chromatic scale is referred to as a half step. The number of half steps between adjacent notes in common three and four note chords, and their frequency ratios, are shown in the table below.
+
+Chord	Half Steps between notes	Freq. Ratios
+Major	4-3	4:5:6
+Minor	3-4	10:12:15
+Diminished	3-3	160:192:231
+(approx. 20:24:29)
+7th	4-3-3	20:25:30:36
+Min. 7th	3-4-3	10:12:15:18
+Maj. 7th	4-3-4	8:10:12:15
+
+Hence Min 7th ratios: 
+1.2 1.25 1.2
+
+Hence Maj 7th ratios: 
+1.25 1.2 1.25 </Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039496" type="com.plogue.AudioValueDisplay.Terminal" displayName="195.997711" processingMode="process">
+				<Geometry x="-436.026" y="-178.24" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039497" type="com.plogue.AudioValueDisplay.Terminal" displayName="235.197266" processingMode="process">
+				<Geometry x="-142.026" y="-225.24" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039499" type="com.plogue.AudioValueDisplay.Terminal" displayName="293.996582" processingMode="process">
+				<Geometry x="103.974" y="-213.24" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039501" type="com.plogue.AudioValueDisplay.Terminal" displayName="352.795898" processingMode="process">
+				<Geometry x="344.974" y="-226.24" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039546" type="com.plogue.UnitConverter" displayName="freq ratio to cent" processingMode="process">
+				<Geometry x="-62.9899" y="80.4831" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="474" y="296" w="418" h="175"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">4.800000</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039548" type="com.plogue.AudioValueDisplay.Terminal" displayName="1.583625" processingMode="process">
+				<Geometry x="-3.026" y="34.76" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039550" type="com.plogue.UnitConverter" displayName="freq ratio to cent" processingMode="process">
+				<Geometry x="130.01" y="59.4831" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="474" y="296" w="418" h="175"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">4.800000</Parameter>
+			</Bidule>
+			<Bidule id="UID_1342039552" type="com.plogue.AudioValueDisplay.Terminal" displayName="1.938200" processingMode="process">
+				<Geometry x="157.974" y="-5.24" w="0" h="0"/>
+				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			</Bidule>
+			<Link producerId="UID_1342039468" producerChannel="0" listenerId="UID_1342039478" listenerChannel="0"/>
+			<Link producerId="UID_1342039478" producerChannel="0" listenerId="UID_1342039482" listenerChannel="0"/>
+			<Link producerId="UID_1342039468" producerChannel="2" listenerId="UID_1342039482" listenerChannel="2"/>
+			<Link producerId="UID_1342039468" producerChannel="1" listenerId="UID_1342039482" listenerChannel="1"/>
+			<Link producerId="UID_1342039468" producerChannel="1" listenerId="UID_1342039484" listenerChannel="1"/>
+			<Link producerId="UID_1342039476" producerChannel="0" listenerId="UID_1342039484" listenerChannel="0"/>
+			<Link producerId="UID_1342039468" producerChannel="2" listenerId="UID_1342039484" listenerChannel="2"/>
+			<Link producerId="UID_1342039468" producerChannel="3" listenerId="UID_1342039482" listenerChannel="3"/>
+			<Link producerId="UID_1342039468" producerChannel="3" listenerId="UID_1342039484" listenerChannel="3"/>
+			<Link producerId="UID_1342039486" producerChannel="0" listenerId="UID_1342039492" listenerChannel="0"/>
+			<Link producerId="UID_1342039468" producerChannel="1" listenerId="UID_1342039492" listenerChannel="1"/>
+			<Link producerId="UID_1342039468" producerChannel="2" listenerId="UID_1342039492" listenerChannel="2"/>
+			<Link producerId="UID_1342039468" producerChannel="3" listenerId="UID_1342039492" listenerChannel="3"/>
+			<Link producerId="UID_1342039490" producerChannel="0" listenerId="UID_1342039486" listenerChannel="1"/>
+			<Link producerId="UID_1342039470" producerChannel="0" listenerId="UID_1342039476" listenerChannel="1"/>
+			<Link producerId="UID_1342039480" producerChannel="0" listenerId="UID_1342039478" listenerChannel="1"/>
+			<Link producerId="UID_1342039468" producerChannel="0" listenerId="UID_1342039496" listenerChannel="0"/>
+			<Link producerId="UID_1342039478" producerChannel="0" listenerId="UID_1342039497" listenerChannel="0"/>
+			<Link producerId="UID_1342039478" producerChannel="0" listenerId="UID_1342039476" listenerChannel="0"/>
+			<Link producerId="UID_1342039476" producerChannel="0" listenerId="UID_1342039486" listenerChannel="0"/>
+			<Link producerId="UID_1342039476" producerChannel="0" listenerId="UID_1342039499" listenerChannel="0"/>
+			<Link producerId="UID_1342039486" producerChannel="0" listenerId="UID_1342039501" listenerChannel="0"/>
+			<Link producerId="UID_1342039480" producerChannel="0" listenerId="UID_1342039546" listenerChannel="0"/>
+			<Link producerId="UID_1342039546" producerChannel="0" listenerId="UID_1342039548" listenerChannel="0"/>
+			<Link producerId="UID_1342039550" producerChannel="0" listenerId="UID_1342039552" listenerChannel="0"/>
+			<Link producerId="UID_1342039470" producerChannel="0" listenerId="UID_1342039550" listenerChannel="0"/>
+			<Link producerId="UID_1342039465" producerChannel="0" listenerId="UID_1342039468" listenerChannel="0"/>
+			<Link producerId="UID_1342039482" producerChannel="0" listenerId="UID_1342039465" listenerChannel="0"/>
+			<Link producerId="UID_1342039465" producerChannel="0" listenerId="UID_1342039465" listenerChannel="0"/>
+			<Link producerId="UID_1342039484" producerChannel="0" listenerId="UID_1342039465" listenerChannel="0"/>
+			<Link producerId="UID_1342039492" producerChannel="0" listenerId="UID_1342039465" listenerChannel="0"/>
+			<VirtualParameter id="0" source="UID_1342039480" param="1" displayName="2nd Note Ratio to 1st Note"/>
+			<VirtualParameter id="1" source="UID_1342039470" param="1" displayName="3rd Note Ratio to 2nd Note"/>
+			<VirtualParameter id="2" source="UID_1342039490" param="1" displayName="4th Note Ratio to 3rd Note"/>
+		</BiduleGroup>
+		<Bidule id="UID_1342039554" type="com.plogue.MidiStepSequencer" displayName="Step Sequencer_0" processingMode="process">
+			<Geometry x="-769.149" y="184.341" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="137" y="79" w="636" h="699"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0.001" userMax="999.999" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="1" userMin="1" userMax="64" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="2" userMin="1" userMax="32" lockedForRandom="false" mutationFactor="0.1">32.0</Parameter>
+			<Parameter id="3" userMin="1" userMax="16" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<CustomData name="seqsPlaying">AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAAA==</CustomData>
+			<CustomData name="seqsPlayingSum">120</CustomData>
+			<CustomData name="sequences">eJztzbENADAIwDA+53PKDwipA/YeJWIkZ9ma5+/v7+/v7+/v7+/v7+9/4F+f/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBhDZYeH2A=</CustomData>
+			<CustomData name="sequencesCompressed">yes</CustomData>
+			<CustomData name="sequencesCompressedSize">302</CustomData>
+			<CustomData name="sequencesSum">57</CustomData>
+			<CustomData name="playListStartEvent">0</CustomData>
+			<CustomData name="playListEndEvent">15</CustomData>
+			<CustomData name="playListSize">16</CustomData>
+			<CustomData name="defaultBPM">120.0</CustomData>
+			<CustomData name="defaultNumSteps">32</CustomData>
+			<CustomData name="playList">64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,120,32
+</CustomData>
+		</Bidule>
+		<Bidule id="UID_1342039555" type="com.plogue.MIDIMonitor" displayName="MIDI Monitor_3" processingMode="process">
+			<Geometry x="-843.093" y="27.5077" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="471" y="210" w="423" h="348"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<BiduleGroup id="UpC" displayName="Freeverb_1" zoom="0.85" type="com.plogue.groups.Freeverb" processingMode="process" author="Plogue Art et Technologie" displayPath="Effects\tFreeverb" version="1.0">
+			<Geometry x="-652.017" y="17.3269" w="0" h="0"/>
+			<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
+			<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>
+			<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+			<Channel index="1" name="Sample Output Channel 2" direction="output" type="samples"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="474" y="237" w="418" h="294"/>
+			</Gui>
+			<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Bidule id="AllpassL1" type="com.plogue.AllpassFilter" displayName="AllpassL1" processingMode="process">
+				<Geometry x="-400" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="AllpassL2" type="com.plogue.AllpassFilter" displayName="AllpassL2" processingMode="process">
+				<Geometry x="-300" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="AllpassL3" type="com.plogue.AllpassFilter" displayName="AllpassL3" processingMode="process">
+				<Geometry x="-200" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="AllpassL4" type="com.plogue.AllpassFilter" displayName="AllpassL4" processingMode="process">
+				<Geometry x="-100" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="AllpassR1" type="com.plogue.AllpassFilter" displayName="AllpassR1" processingMode="process">
+				<Geometry x="400" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="AllpassR2" type="com.plogue.AllpassFilter" displayName="AllpassR2" processingMode="process">
+				<Geometry x="300" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="AllpassR3" type="com.plogue.AllpassFilter" displayName="AllpassR3" processingMode="process">
+				<Geometry x="200" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="AllpassR4" type="com.plogue.AllpassFilter" displayName="AllpassR4" processingMode="process">
+				<Geometry x="100" y="-100" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			</Bidule>
+			<Bidule id="CombL1" type="com.plogue.CombFilter" displayName="CombL1" processingMode="process">
+				<Geometry x="-625" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombL2" type="com.plogue.CombFilter" displayName="CombL2" processingMode="process">
+				<Geometry x="-550" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombL3" type="com.plogue.CombFilter" displayName="CombL3" processingMode="process">
+				<Geometry x="-475" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombL4" type="com.plogue.CombFilter" displayName="CombL4" processingMode="process">
+				<Geometry x="-400" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombL5" type="com.plogue.CombFilter" displayName="CombL5" processingMode="process">
+				<Geometry x="-325" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombL6" type="com.plogue.CombFilter" displayName="CombL6" processingMode="process">
+				<Geometry x="-250" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombL7" type="com.plogue.CombFilter" displayName="CombL7" processingMode="process">
+				<Geometry x="-175" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombL8" type="com.plogue.CombFilter" displayName="CombL8" processingMode="process">
+				<Geometry x="-100" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR1" type="com.plogue.CombFilter" displayName="CombR1" processingMode="process">
+				<Geometry x="625" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR2" type="com.plogue.CombFilter" displayName="CombR2" processingMode="process">
+				<Geometry x="550" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR3" type="com.plogue.CombFilter" displayName="CombR3" processingMode="process">
+				<Geometry x="475" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR4" type="com.plogue.CombFilter" displayName="CombR4" processingMode="process">
+				<Geometry x="400" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR5" type="com.plogue.CombFilter" displayName="CombR5" processingMode="process">
+				<Geometry x="325" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR6" type="com.plogue.CombFilter" displayName="CombR6" processingMode="process">
+				<Geometry x="250" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR7" type="com.plogue.CombFilter" displayName="CombR7" processingMode="process">
+				<Geometry x="175" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="CombR8" type="com.plogue.CombFilter" displayName="CombR8" processingMode="process">
+				<Geometry x="100" y="80" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.890196</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.215686</Parameter>
+			</Bidule>
+			<Bidule id="ConstAL1" type="com.plogue.Constant" displayName="AL1" processingMode="process">
+				<Geometry x="-350" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">12.607710</Parameter>
+			</Bidule>
+			<Bidule id="ConstAL2" type="com.plogue.Constant" displayName="AL2" processingMode="process">
+				<Geometry x="-250" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">10.0</Parameter>
+			</Bidule>
+			<Bidule id="ConstAL3" type="com.plogue.Constant" displayName="AL3" processingMode="process">
+				<Geometry x="-150" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">7.732426</Parameter>
+			</Bidule>
+			<Bidule id="ConstAL4" type="com.plogue.Constant" displayName="AL4" processingMode="process">
+				<Geometry x="-50" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">5.102041</Parameter>
+			</Bidule>
+			<Bidule id="ConstAR1" type="com.plogue.Constant" displayName="AR1" processingMode="process">
+				<Geometry x="350" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">13.129252</Parameter>
+			</Bidule>
+			<Bidule id="ConstAR2" type="com.plogue.Constant" displayName="AR2" processingMode="process">
+				<Geometry x="250" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">10.521542</Parameter>
+			</Bidule>
+			<Bidule id="ConstAR3" type="com.plogue.Constant" displayName="AR3" processingMode="process">
+				<Geometry x="150" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">8.253968</Parameter>
+			</Bidule>
+			<Bidule id="ConstAR4" type="com.plogue.Constant" displayName="AR4" processingMode="process">
+				<Geometry x="50" y="-50" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">5.623583</Parameter>
+			</Bidule>
+			<Bidule id="ConstL1" type="com.plogue.Constant" displayName="L1" processingMode="process">
+				<Geometry x="-575" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">25.306122</Parameter>
+			</Bidule>
+			<Bidule id="ConstL2" type="com.plogue.Constant" displayName="L2" processingMode="process">
+				<Geometry x="-500" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">26.938776</Parameter>
+			</Bidule>
+			<Bidule id="ConstL3" type="com.plogue.Constant" displayName="L3" processingMode="process">
+				<Geometry x="-425" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">28.956916</Parameter>
+			</Bidule>
+			<Bidule id="ConstL4" type="com.plogue.Constant" displayName="L4" processingMode="process">
+				<Geometry x="-350" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">30.748299</Parameter>
+			</Bidule>
+			<Bidule id="ConstL5" type="com.plogue.Constant" displayName="L5" processingMode="process">
+				<Geometry x="-275" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">32.244898</Parameter>
+			</Bidule>
+			<Bidule id="ConstL6" type="com.plogue.Constant" displayName="L6" processingMode="process">
+				<Geometry x="-200" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">33.809524</Parameter>
+			</Bidule>
+			<Bidule id="ConstL7" type="com.plogue.Constant" displayName="L7" processingMode="process">
+				<Geometry x="-125" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">35.306122</Parameter>
+			</Bidule>
+			<Bidule id="ConstL8" type="com.plogue.Constant" displayName="L8" processingMode="process">
+				<Geometry x="-50" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">36.666667</Parameter>
+			</Bidule>
+			<Bidule id="ConstR1" type="com.plogue.Constant" displayName="R1" processingMode="process">
+				<Geometry x="575" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">25.827664</Parameter>
+			</Bidule>
+			<Bidule id="ConstR2" type="com.plogue.Constant" displayName="R2" processingMode="process">
+				<Geometry x="500" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">27.460317</Parameter>
+			</Bidule>
+			<Bidule id="ConstR3" type="com.plogue.Constant" displayName="R3" processingMode="process">
+				<Geometry x="425" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">29.478458</Parameter>
+			</Bidule>
+			<Bidule id="ConstR4" type="com.plogue.Constant" displayName="R4" processingMode="process">
+				<Geometry x="350" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">31.269841</Parameter>
+			</Bidule>
+			<Bidule id="ConstR5" type="com.plogue.Constant" displayName="R5" processingMode="process">
+				<Geometry x="275" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">32.766440</Parameter>
+			</Bidule>
+			<Bidule id="ConstR6" type="com.plogue.Constant" displayName="R6" processingMode="process">
+				<Geometry x="200" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">34.331066</Parameter>
+			</Bidule>
+			<Bidule id="ConstR7" type="com.plogue.Constant" displayName="R7" processingMode="process">
+				<Geometry x="125" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">35.827664</Parameter>
+			</Bidule>
+			<Bidule id="ConstR8" type="com.plogue.Constant" displayName="R8" processingMode="process">
+				<Geometry x="50" y="130" w="0" h="0"/>
+				<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="1" userMin="-200000" userMax="200000" lockedForRandom="false" mutationFactor="0.1">37.188209</Parameter>
+			</Bidule>
+			<Bidule id="Dry_level_id" type="com.plogue.Gain" displayName="Dry level" processingMode="process">
+				<Geometry x="766.875" y="51.25" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.251189</Parameter>
+			</Bidule>
+			<Bidule id="PreGAin_ID" type="com.plogue.Gain" displayName="Pre Gain" processingMode="process">
+				<Geometry x="-6.41477" y="222.045" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.015000</Parameter>
+			</Bidule>
+			<Bidule id="SqueezeID" type="com.plogue.StereoSqueezer" displayName="Stereo Squeezer" processingMode="process">
+				<Geometry x="0" y="-160" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			</Bidule>
+			<Bidule id="Wet_level_id" type="com.plogue.Gain" displayName="Wet level" processingMode="process">
+				<Geometry x="0" y="-217" w="0" h="0"/>
+				<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+				<Gui state="normal" hidden="true" generic="true">
+					<Geometry x="0" y="0" w="0" h="0"/>
+				</Gui>
+				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">3.162278</Parameter>
+			</Bidule>
+			<Link producerId="ConstL1" producerChannel="0" listenerId="CombL1" listenerChannel="1"/>
+			<Link producerId="ConstL2" producerChannel="0" listenerId="CombL2" listenerChannel="1"/>
+			<Link producerId="ConstL3" producerChannel="0" listenerId="CombL3" listenerChannel="1"/>
+			<Link producerId="ConstL4" producerChannel="0" listenerId="CombL4" listenerChannel="1"/>
+			<Link producerId="ConstL5" producerChannel="0" listenerId="CombL5" listenerChannel="1"/>
+			<Link producerId="ConstL6" producerChannel="0" listenerId="CombL6" listenerChannel="1"/>
+			<Link producerId="ConstL7" producerChannel="0" listenerId="CombL7" listenerChannel="1"/>
+			<Link producerId="ConstL8" producerChannel="0" listenerId="CombL8" listenerChannel="1"/>
+			<Link producerId="ConstAL1" producerChannel="0" listenerId="AllpassL1" listenerChannel="1"/>
+			<Link producerId="ConstAL2" producerChannel="0" listenerId="AllpassL2" listenerChannel="1"/>
+			<Link producerId="ConstAL3" producerChannel="0" listenerId="AllpassL3" listenerChannel="1"/>
+			<Link producerId="ConstAL4" producerChannel="0" listenerId="AllpassL4" listenerChannel="1"/>
+			<Link producerId="AllpassL1" producerChannel="0" listenerId="AllpassL2" listenerChannel="0"/>
+			<Link producerId="AllpassL2" producerChannel="0" listenerId="AllpassL3" listenerChannel="0"/>
+			<Link producerId="AllpassL3" producerChannel="0" listenerId="AllpassL4" listenerChannel="0"/>
+			<Link producerId="ConstR1" producerChannel="0" listenerId="CombR1" listenerChannel="1"/>
+			<Link producerId="ConstR2" producerChannel="0" listenerId="CombR2" listenerChannel="1"/>
+			<Link producerId="ConstR3" producerChannel="0" listenerId="CombR3" listenerChannel="1"/>
+			<Link producerId="ConstR4" producerChannel="0" listenerId="CombR4" listenerChannel="1"/>
+			<Link producerId="ConstR5" producerChannel="0" listenerId="CombR5" listenerChannel="1"/>
+			<Link producerId="ConstR6" producerChannel="0" listenerId="CombR6" listenerChannel="1"/>
+			<Link producerId="ConstR7" producerChannel="0" listenerId="CombR7" listenerChannel="1"/>
+			<Link producerId="ConstR8" producerChannel="0" listenerId="CombR8" listenerChannel="1"/>
+			<Link producerId="ConstAR1" producerChannel="0" listenerId="AllpassR1" listenerChannel="1"/>
+			<Link producerId="ConstAR2" producerChannel="0" listenerId="AllpassR2" listenerChannel="1"/>
+			<Link producerId="ConstAR3" producerChannel="0" listenerId="AllpassR3" listenerChannel="1"/>
+			<Link producerId="ConstAR4" producerChannel="0" listenerId="AllpassR4" listenerChannel="1"/>
+			<Link producerId="AllpassR1" producerChannel="0" listenerId="AllpassR2" listenerChannel="0"/>
+			<Link producerId="AllpassR2" producerChannel="0" listenerId="AllpassR3" listenerChannel="0"/>
+			<Link producerId="AllpassR3" producerChannel="0" listenerId="AllpassR4" listenerChannel="0"/>
+			<Link producerId="UpC" producerChannel="0" listenerId="PreGAin_ID" listenerChannel="0"/>
+			<Link producerId="UpC" producerChannel="1" listenerId="PreGAin_ID" listenerChannel="1"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL8" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL7" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL6" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL5" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL4" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL3" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL2" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="0" listenerId="CombL1" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR8" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR7" listenerChannel="0"/>
+			<Link producerId="CombL1" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombL2" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombL3" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombL4" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombL5" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombL6" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombL7" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombL8" producerChannel="0" listenerId="AllpassL1" listenerChannel="0"/>
+			<Link producerId="CombR8" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="CombR7" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="CombR6" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="CombR5" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="CombR4" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="CombR3" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="CombR2" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="CombR1" producerChannel="0" listenerId="AllpassR1" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR6" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR5" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR4" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR3" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR2" listenerChannel="0"/>
+			<Link producerId="PreGAin_ID" producerChannel="1" listenerId="CombR1" listenerChannel="0"/>
+			<Link producerId="Wet_level_id" producerChannel="0" listenerId="UpC" listenerChannel="0"/>
+			<Link producerId="Wet_level_id" producerChannel="1" listenerId="UpC" listenerChannel="1"/>
+			<Link producerId="UpC" producerChannel="0" listenerId="Dry_level_id" listenerChannel="0"/>
+			<Link producerId="UpC" producerChannel="1" listenerId="Dry_level_id" listenerChannel="1"/>
+			<Link producerId="Dry_level_id" producerChannel="0" listenerId="UpC" listenerChannel="0"/>
+			<Link producerId="Dry_level_id" producerChannel="1" listenerId="UpC" listenerChannel="1"/>
+			<Link producerId="SqueezeID" producerChannel="0" listenerId="Wet_level_id" listenerChannel="0"/>
+			<Link producerId="SqueezeID" producerChannel="1" listenerId="Wet_level_id" listenerChannel="1"/>
+			<Link producerId="AllpassR4" producerChannel="0" listenerId="SqueezeID" listenerChannel="1"/>
+			<Link producerId="AllpassL4" producerChannel="0" listenerId="SqueezeID" listenerChannel="0"/>
+			<VirtualParameter id="0" source="CombL1" param="0" displayName="Room Size"/>
+			<VirtualParameter id="1" source="CombL1" param="1" displayName="Dampening"/>
+			<VirtualParameter id="2" source="SqueezeID" param="0" displayName="Width"/>
+			<VirtualParameter id="3" source="Wet_level_id" param="0" displayName="Wet Level"/>
+			<VirtualParameter id="4" source="Dry_level_id" param="0" displayName="Dry Level"/>
+		</BiduleGroup>
+		<Link producerId="UID_1044475375" producerChannel="0" listenerId="UID_1026570523" listenerChannel="0"/>
+		<Link producerId="UID_1044475375" producerChannel="1" listenerId="UID_1026570523" listenerChannel="1"/>
+		<Link producerId="UID_1342039554" producerChannel="0" listenerId="UID_1342039465" listenerChannel="0"/>
+		<Link producerId="UID_1342039465" producerChannel="0" listenerId="UID_1342039555" listenerChannel="0"/>
+		<Link producerId="UID_1342039465" producerChannel="0" listenerId="UID_1038666748" listenerChannel="0"/>
+		<Link producerId="UID_1038666748" producerChannel="0" listenerId="UpC" listenerChannel="0"/>
+		<Link producerId="UpC" producerChannel="0" listenerId="UID_1044475375" listenerChannel="0"/>
+		<Link producerId="UpC" producerChannel="1" listenerId="UID_1044475375" listenerChannel="1"/>
+		<Link producerId="UID_1038666748" producerChannel="0" listenerId="UpC" listenerChannel="1"/>
+	</BiduleGroup>
+	<Automation id="Automation"/>
+	<ParameterLink producerId="CombL2" producerParamId="0" listenerId="CombL3" listenerParamId="0"/>
+	<ParameterLink producerId="CombL2" producerParamId="1" listenerId="CombL3" listenerParamId="1"/>
+	<ParameterLink producerId="CombL3" producerParamId="0" listenerId="CombL4" listenerParamId="0"/>
+	<ParameterLink producerId="CombL3" producerParamId="1" listenerId="CombL4" listenerParamId="1"/>
+	<ParameterLink producerId="CombL4" producerParamId="0" listenerId="CombL5" listenerParamId="0"/>
+	<ParameterLink producerId="CombL4" producerParamId="1" listenerId="CombL5" listenerParamId="1"/>
+	<ParameterLink producerId="CombL5" producerParamId="0" listenerId="CombL6" listenerParamId="0"/>
+	<ParameterLink producerId="CombL5" producerParamId="1" listenerId="CombL6" listenerParamId="1"/>
+	<ParameterLink producerId="CombL6" producerParamId="0" listenerId="CombL7" listenerParamId="0"/>
+	<ParameterLink producerId="CombL6" producerParamId="1" listenerId="CombL7" listenerParamId="1"/>
+	<ParameterLink producerId="CombL1" producerParamId="0" listenerId="CombL2" listenerParamId="0"/>
+	<ParameterLink producerId="CombL1" producerParamId="1" listenerId="CombL2" listenerParamId="1"/>
+	<ParameterLink producerId="CombL7" producerParamId="0" listenerId="CombL8" listenerParamId="0"/>
+	<ParameterLink producerId="CombL7" producerParamId="1" listenerId="CombL8" listenerParamId="1"/>
+	<ParameterLink producerId="CombL8" producerParamId="0" listenerId="CombR1" listenerParamId="0"/>
+	<ParameterLink producerId="CombL8" producerParamId="1" listenerId="CombR1" listenerParamId="1"/>
+	<ParameterLink producerId="CombR1" producerParamId="0" listenerId="CombR2" listenerParamId="0"/>
+	<ParameterLink producerId="CombR1" producerParamId="1" listenerId="CombR2" listenerParamId="1"/>
+	<ParameterLink producerId="CombR2" producerParamId="0" listenerId="CombR3" listenerParamId="0"/>
+	<ParameterLink producerId="CombR2" producerParamId="1" listenerId="CombR3" listenerParamId="1"/>
+	<ParameterLink producerId="CombR3" producerParamId="0" listenerId="CombR4" listenerParamId="0"/>
+	<ParameterLink producerId="CombR3" producerParamId="1" listenerId="CombR4" listenerParamId="1"/>
+	<ParameterLink producerId="CombR4" producerParamId="0" listenerId="CombR5" listenerParamId="0"/>
+	<ParameterLink producerId="CombR4" producerParamId="1" listenerId="CombR5" listenerParamId="1"/>
+	<ParameterLink producerId="CombR5" producerParamId="0" listenerId="CombR6" listenerParamId="0"/>
+	<ParameterLink producerId="CombR5" producerParamId="1" listenerId="CombR6" listenerParamId="1"/>
+	<ParameterLink producerId="CombR6" producerParamId="0" listenerId="CombR7" listenerParamId="0"/>
+	<ParameterLink producerId="CombR6" producerParamId="1" listenerId="CombR7" listenerParamId="1"/>
+	<ParameterLink producerId="CombR7" producerParamId="0" listenerId="CombR8" listenerParamId="0"/>
+	<ParameterLink producerId="CombR7" producerParamId="1" listenerId="CombR8" listenerParamId="1"/>
+</BoardLayout>
