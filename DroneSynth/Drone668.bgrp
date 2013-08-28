@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
-	<BiduleGroup id="UID_1295086929" displayName="Drone668" zoom="1" type="com.plogue.groups.Drone668" processingMode="process" author="Megiddo" version="1.3">
+	<BiduleGroup id="UID_1295086929" displayName="Drone668" zoom="1" type="com.plogue.groups.Drone668" processingMode="process" author="n6" version="1.3">
 		<Geometry x="-3" y="64.5" w="0" h="0"/>
 		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
 		<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>

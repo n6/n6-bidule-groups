@@ -4,7 +4,7 @@
 		<MediaEntry filename ="C:\Home\Songs\Plogue Bidule\Audio\1933_rbh_NYC_subway_pass.wav" />
 		<MediaEntry filename ="C:\Home\Songs\Plogue Bidule\Audio\MotorAss_121BPMa.wav" />
 	</MediaPool>
-	<BiduleGroup id="UID_1293579391" displayName="Drone666" zoom="1" type="com.plogue.groups.Drone666" processingMode="process" author="Megiddo" version="1.1">
+	<BiduleGroup id="UID_1293579391" displayName="Drone666" zoom="1" type="com.plogue.groups.Drone666" processingMode="process" author="n6" version="1.1">
 		<Geometry x="-21" y="39" w="0" h="0"/>
 		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
 		<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>
